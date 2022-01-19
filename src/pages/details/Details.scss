@@ -1,0 +1,17 @@
+.details-page {
+
+  .details-page__name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .details-page__comment {
+    margin-top: 1rem;
+
+    .details-page__comment-text {
+      font-size: 11px;
+      margin-top: 0.5rem;
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import '../../kit/style.scss';
+
+.page-home {
+  display: flex;
+  flex-direction: column;
+  margin: 15vh 200px 0;
+
+  .page-home__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .page-home__item {
+      display: flex;
+      justify-content: space-between;
+      width: 15rem;
+      border: 1px black solid;
+      border-radius: 0.4rem;
+      box-sizing: border-box;
+      padding: 0.3rem;
+    }
+  }
+
+  .page-home__pagination {
+    display: flex;
+    justify-content: space-between;
+
+    .__pagination-button {
+      margin: 1rem;
+      width: 30rem;
+    }
+  }
+}
