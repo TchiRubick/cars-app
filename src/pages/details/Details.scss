@@ -8,10 +8,28 @@
   .details-page__comment {
     margin-top: 1rem;
 
-    .details-page__comment-text {
-      font-size: 11px;
-      margin-top: 0.5rem;
-      text-align: justify;
+    .details-page__comment-item {
+      display: flex;
+      padding: 0.5rem;
+      flex-direction: column;
+
+      .details-page__comment-text {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        text-align: justify;
+      }
+
+      .details-page__comment-name {
+        font-size: 10px;
+        font-weight: bold;
+        text-align: justify;
+      }
     }
+
+  }
+
+  .details-page__button {
+    width: 10rem;
+    margin: 2rem 0.5rem;
   }
 }
